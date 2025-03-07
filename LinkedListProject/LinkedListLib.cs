@@ -40,7 +40,7 @@ namespace LinkedListLib
         public void Add(int value)
         {
             Node newNode = new Node() { Value = value };
-            
+
             if (this.Head == null)
             {
                 this.Head = newNode;
